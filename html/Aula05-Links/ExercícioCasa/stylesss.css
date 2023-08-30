@@ -1,0 +1,6 @@
+body {
+  background: rgba(255, 185, 80, 0.137);
+  display: grid;
+  justify-content: center;
+  font-family:sans-serif;
+}

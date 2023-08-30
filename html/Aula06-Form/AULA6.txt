@@ -1,0 +1,58 @@
+action ação de enviar as inf
+tags sempre body
+autocomplete preenchimento
+method mostra na url // ="post // "get não é seguro
+atributos dar uma nova funcionalidade
+input marcação unica
+label abertura e fechamento sempre enciima da input
+atributo pros inputs name="" transforma tudo em um conjunto só
+
+<form action="">
+        <input type="checkbox">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="email">
+        <br>
+        <input type="color">
+        <br>
+        <input type="file">
+        <br>
+        <input type="month">
+        <br>
+        <input type="number">
+        <br>
+        <input type="password">
+        <br>
+        <input type="range">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="date">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="image">
+        <br>
+        <label>Nome</label>
+        <input type="text">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="search">
+        <br>
+        <input type="time">
+        <br>
+        <input type="url">
+        <br>
+        <input type="week">
+
+</form>
+
+radio uma opção
+checkbox várias opções
+
+select lista pronta já selecionavel
+datalist lista para pesquisar onde digitando pode encontrar a pesquisa
+ADVPL - PESQUISAR CURSO LINGUAGEM DA TOTVS
+GENERATION BRASIL- CURSOS NÃO PODE ESTAR TRABALHANDO

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--FORM - LABEL - INPUT-->
+
+    <form action="mailto:dollarbillga@gmail.com" method="post"> <!--<input type="submit" value="ENVIAR" /> -->
+      <h4>Formulário</h4>
+      <label>Nome</label>
+      <input type="text" class="text" required/>
+      <br />
+      <label>Número de Telefone</label>
+      <input type="number" class="number" required />
+      <br />
+      <label>CEP</label>
+      <input type="number" class="CEP" required/>
+      <br />
+
+      <!--RADIO-->
+
+      <h4>Escolha sua Música</h4>
+      <input type="radio" name="Música" />
+      <label for="">Sem Essa - Jards Macalé</label>
+      <br />
+      <input type="radio" name="Música" />
+      <label for="">Shout - Head Over Hells</label>
+      <br />
+      <input type="radio" name="Música" />
+      <label for="">Sonho Bom - Marina Sena</label>
+      <br />
+
+      <!--CHECKBOX-->
+
+      <h4>Estilos Musicais</h4>
+      <label for="">Rock</label>
+      <input type="checkbox" />
+      <br />
+      <label for="">POP</label>
+      <input type="checkbox" />
+      <br />
+      <label for="">MPB</label>
+      <input type="checkbox" />
+      <br />
+
+      <!--RANGE-->
+
+      <h4>Quanto tempo você gasta ouvindo música em um dia</h4>
+      <label for="">0H</label>
+      <input type="range" />
+      <label for="">24H</label>
+      <br />
+
+      <!--SELECT-->
+
+      <h4>Selecione um artista</h4>
+      <label for="">Artistas</label>
+      <select name="" id="">
+        <option value="Artistas">Artistas</option>
+        <option value="Beyonce">Beyonce</option>
+        <option value="Lady Gaga">Lady Gaga</option>
+        <option value="Seu Jorge">Seu Jorge</option>
+        <option value="Ana Carolina">Ana Carolina</option>
+        <option value="Grimes">Grimes</option>
+      </select>
+
+      <!--DATALIST-->
+      <!--EX: SPOTIFY, NETFLIX, BARRA DE PESQUISA DO GOOGLE-->
+
+      <h4>Procure um artista</h4>
+      <label for="">Artistas</label>
+      <input type="text" list="Artistas" />
+      <datalist name="Artistas" id="Artistas">
+        <option value="Artistas">Artistas</option>
+        <option value="Beyonce">Beyonce</option>
+        <option value="Lady Gaga">Lady Gaga</option>
+        <option value="Seu Jorge">Seu Jorge</option>
+        <option value="Ana Carolina">Ana Carolina</option>
+        <option value="Grimes">Grimes</option>
+      </datalist>
+
+      <!--TEXTAREA-->
+      <!--COLS =COLUNAS ROWS = LINHAS-->
+      <!--FIELDSET--><!--LEGEND-->
+      <!--ORGANIZAR O CÓDIGO QUE QUER FALAR SOBRE UM ASSUNTO-->
+
+      <fieldset>
+        <legend>Fale sobre sua música favorita</legend>
+        <label for="">Música</label>
+        <input type="text" />
+        <textarea name="Música" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Comente sobre seu artista favorito</legend>
+        <label for="">Artista</label>
+        <input type="text" />
+        <textarea name="Artista" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br>
+      <input type="submit" value="ENVIAR" />
+    </form>
+  </body>
+</html>
