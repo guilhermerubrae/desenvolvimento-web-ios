@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Playfair Display', serif;
+}
+
+h2, h3 { 
+    color: rgb(226, 230, 220);
+}
+
+footer {
+    background-color: rgb(172, 151, 119);
+}
+
+p {
+    color: black;
+}
