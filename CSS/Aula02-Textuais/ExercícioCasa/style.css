@@ -1,10 +1,17 @@
 body {
     font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
     background-color: #b3e9f3;
-}
-p {
+  }
+  
+  h1 {
     background-color: #6590d1;
-    font-size: 3px;
-    
-}
+    box-shadow: 3px 3px 3px #48789f;
+  }
+  
+  img {
+    width: 500px;
+    height: 300px;
+  }
+  
