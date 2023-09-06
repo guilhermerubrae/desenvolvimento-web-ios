@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(5, 5, 36, 0.836);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+  text-shadow: 1px 1px 1px #fafafa;
+  font-weight: 800;
+}
+.conjunto1 {
+  color: rgba(75, 75, 182, 0.596);
+}
+p,
+h1.conjunto2 {
+  color: rgb(112, 106, 192);
+}
+.conjunto3 {
+  color: blueviolet;
+}
+
+#conjunto {
+  text-indent: 33px;
+  text-decoration: line-through teal;
+}
+/*/ section(espaço).conjunto666 */
+section .conjunto666 {
+  color: blue;
+  background-color: blanchedalmond;
+}
+* {
+    background-color: black;
+    color: aqua;
+}
+
+section p {
+    background-color: rgb(212, 211, 226);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
