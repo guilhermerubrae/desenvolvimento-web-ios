@@ -1,0 +1,17 @@
+/* topo direita base esquerdamargin*/
+div {
+    border: 1px solid mediumaquamarine;
+    margin-top: 10px ;
+    margin-right: 40px;
+    margin-bottom: 40px; 
+    margin-left: 40px;   
+    padding: 50px 50px 50px 51px;
+}
+
+/* colocar uma borda no paragráfo 1px solid e cor*/
+
+p {
+    border: 3px solid rgba(102, 205, 171, 0.185);
+    padding: 50px 20px 20px 51px;
+    margin: 50px 50px 50px 51px;
+}
