@@ -1,31 +1,40 @@
-/*#pai {
+#pai {
   font-size: 12px;
   width: 100vw;
   height: 100vh;
 }
 
-p {
-  font-size: 2em;
+.medidap {
+  font-size: 2rem;
+  background-color: rgba(169, 213, 213, 0.59);
   width: 50vw;
   height: 50vh;
-}*/
+  float:left;
+}
+/*16.2=32 
 
-img{
+ vw =largura
+ vh = altura
+ 500/50=250 */
+
+img {
   width: 300px;
   height: 300px;
 }
 
 #logo1 {
-float: left;
-width: 100px;
-height: 100px;
+  float: left;
+  width: 100px;
+  height: 100px;
 }
+
 #paragrafo {
+  background-color: azure;
   clear: none;
-}*/
+}
 
 #logo2 {
-float: right;
-width: 100px;
-height: 100px;
+  float: right;
+  width: 100px;
+  height: 100px;
 }
