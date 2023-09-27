@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: #ffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#container {
+  display: flex;
+  /* permite a utilização das propriedades flexbox*/
+
+  /*flex-direction:column-reverse;*/
+  /*flex-direction irá dar a direção de para onde você quer que os itens deverão se mover 
+  e se desejar aplicar o reverse tbm (((horizontal)))*/
+
+  flex-wrap: wrap;
+  /*quando a tela diminuir ele vai jogamdo os itens pARA ONDE VOCÊ DECIDIR*/
+
+  /**flex-flow: row wrap;
+  /*direction e wrap juntos*/
+
+  /**justify-content: space-between;
+  /*espaçamento calculado igualmente entre os itens ; 
+  flex-start/end/center não espaça apenas aloca na direção;
+  between uma diva para outra ; 
+  evenly calcula a mesma distância para margem ;
+   around calcula distancia das div e adiciona a metade do calculo as margens*/
+   border: 1px solid rgb(210, 30, 180);
+   height:150px;
+   align-items:center;
+   /*depende do tamanho (height) do container para ser mais visivel as mudanças (((vertical)))*/
+   /*se quiser mecher na horizontal e vertical trabalhe com, justify-content e align itens*/
+   /*valor:stretch altura os filhos acompanham eles seguem a altura do container
+   valor: baseline alinha o texto de forma vertical*/
+   /*order é trabalhada com a flex-wrap */
+  }
+
+  .itens8 {
+    /**order:1;
+    /*order é trabalhada com a flex-wrap, movimenta os intens antes ou depois dos outros */
+
+    flex-grow: 4;
+    /*0-4 ocupa um valor maior da largura */
+  }
+
+.itens {
+  border: 1px solid rgb(30, 189, 210);
+}
