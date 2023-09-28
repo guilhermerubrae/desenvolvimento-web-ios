@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#container {
+    display: grid;
+    /*trabalha com blocos*/
+    grid-template-columns:repeat(4, 1fr);
+    /*colunas ; auto completa o tamanho; repeat(fr) fr fração da tela, vai repetir distribuido igualmente as colunas, se não quiser distribua na mão as medidas por medidas que quiser */
+    grid-template-rows:auto;
+    /*linhas*/
+    grid-template-areas:"div4 div4 div4 div4 . div2" "div1 div3 div5 div6 div7 div8";
+    /*"": são linhas, onde podemos colocar os itens em tal celula; . não irá incluir nada nenhum item na célula(fica em branco a célula quando se repete*/
+}
+
+.item-1 {
+    grid-area: div1;
+    border: 1px solid rgb(100, 11, 11);
+    /**/
+}
+.item-2 {
+    grid-area: div2;
+    border: 1px solid rgb(16, 110, 52);
+    /**/
+}
+.item-3 {
+    grid-area: div3;
+    border: 1px solid rgb(189, 45, 45);
+    /**/
+}
+.item-4 {
+    grid-area: div4;
+    border: 1px solid rgb(82, 19, 68);
+    /**/
+}
+.item-5 {
+    grid-area: div5;
+    border: 1px solid rgb(30, 63, 112);
+    /**/
+}
+.item-6 {
+    grid-area: div6;
+    border: 1px solid rgb(67, 176, 219);
+    /**/
+}
+.item-7 {
+    grid-area: div7;
+    border: 1px solid rgb(163, 192, 33);
+    /**/
+}
+.item-8 {
+    grid-area: div8;
+    border: 1px solid rgb(9, 225, 233);
+    /**/
+}
+   
