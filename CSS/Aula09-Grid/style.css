@@ -9,7 +9,7 @@ body {
 #container {
     display: grid;
     /*trabalha com blocos*/
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(6, 1fr);
     /*colunas ; auto completa o tamanho; repeat(fr) fr fração da tela, vai repetir distribuido igualmente as colunas, se não quiser distribua na mão as medidas por medidas que quiser */
     grid-template-rows:auto;
     /*linhas*/
