@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(220, 230, 216);
+  color: #ffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns:repeat(4 1fr);
+    grid-template-rows: repeat(6 1fr);
+    grid-template-areas: 
+    "item1 item1 item2 item2"
+    "item3 item3 item3 item3"
+    "item4 item4 item4 item4"
+    " . item5 item5 . "
+    "item6 item6 item6 item6"
+    "item7 item7 item8 item9";
+}
+
+.item-1 {
+    background-color: aquamarine;
+    grid-area:item1;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-2 {
+    background-color: aquamarine;
+    grid-area: item2;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-3 {
+    background-color: aquamarine;
+    grid-area: item3;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-4 {
+    background-color: aquamarine;
+    grid-area: item4;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-5 {
+    background-color: aquamarine;
+    grid-area: item5;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-6 {
+    background-color: aquamarine;
+    grid-area: item6;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-7 {
+    background-color: aquamarine;
+    grid-area: item7;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.item-8 {
+    background-color: aquamarine;
+    grid-area: item8;
+    border: 1px solid rgb(0, 0, 0);
+}
+.item-9 {
+    background-color: aquamarine;
+    grid-area: item9;
+    border: 1px solid rgb(0, 0, 0);
+}
+   
+
