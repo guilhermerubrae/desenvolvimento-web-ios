@@ -1,0 +1,11 @@
+.corDeFundo {
+    background-color: rgb(187, 105, 105);
+    color: white;
+}
+
+.imagemLogo {
+    width: 1rem;
+    height: 1rem;
+    align-items: center;
+}
+   
