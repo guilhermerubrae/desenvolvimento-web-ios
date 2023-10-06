@@ -79,17 +79,13 @@ li {
   height: auto;
 }
 
-img.capa {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-
 .imagens {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
-border-radius: 2rem;
+  border-radius: 2rem;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 form{
@@ -192,5 +188,6 @@ nav.navFooter {
     overflow-x: hidden; /* Isso vai esconder qualquer conteúdo que vazar horizontalmente */
   }
 
-    margin-bottom: 1rem;}
-}
+    margin-bottom: 1rem;{
+    }
+  }
