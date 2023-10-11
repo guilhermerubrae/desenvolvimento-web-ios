@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Sweet And Love</title>
+  <link rel="icon" href="./img/LogoHeart.png" type="image/png" />
+</head>
+
+<body>
+  <header>
+    <img src="./img/LogoHeart.png" alt="logo" class="logo" />
+    <h1 class="sombreamento centralizado">Sweet And Love</h1>
+    <nav class="navHeader">
+      <a href="home.html" target="_blank">Home</a>
+      <a href="doces.html" target="_blank">Doces</a>
+      <a href="salgados.html" target="_blank">Salgados</a>
+      <a href="formulário.html" target="_blank">Formulário</a>
+    </nav>
+  </header>
+  <form action="mailto:jony@gmail.com" method="post">
+    <label for="nome">Nome completo</label>
+    <input type="text" class="text" required />
+    <br /><br />
+    <label for="email">E-mail</label>
+    <input type="text" class="text" required />
+    <br /><br />
+    <label for="endereço">Endereço</label>
+    <input type="text" class="text" required />
+    <br /><br />
+    <label for="bairro">Bairro</label>
+    <input type="text" class="text" required />
+    <br /><br />
+    <label for="cidade">Cidade</label>
+    <input type="text" class="text" required />
+    <br /><br />
+    <label for="telefone">Telefone Fixo ou Celular</label>
+    <input type="number" class="text" required />
+    <br /><br />
+    <div id="container">
+      <section class="column">
+        <h3>Doces</h3>
+        <input type="checkbox" />
+        <label for="selecione">Brigadeiro de Castanha</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Cocada</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Beijinho</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Romeu e Julieta</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Chocolate ao Leite</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Paçoca</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Beijinho de Doce de Leite</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Oreo</label>
+        <br />
+      </section>
+
+      <section class="column">
+        <h3>Salgados</h3>
+        <input type="checkbox" />
+        <label for="selecione">Empadinha de Frango</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Coxinha</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Kibe</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Rissoles de Carne</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Bolinho de Queijo</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Pastel de Carne</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Esfiha de Carne</label>
+        <br />
+        <input type="checkbox" />
+        <label for="selecione">Croquete de Batata</label>
+        <br />
+      </section>
+    </div>
+
+    <h3>Forma de Pagamento</h3>
+    <select name="pagamento" class="text textColor">
+      <option value="Selecionar">Selecionar</option>
+      <option value="Pix">Pix</option>
+      <option value="Boleto">Boleto Bancário</option>
+    </select>
+    <br />
+
+    <fieldset class="text">
+      <legend>Observações do Pedido/Entrega:</legend>
+      <textarea class="text textColor" name="Pedido/Entrega" rows="10">Comente:</textarea>
+    </fieldset>
+    <br />
+
+    <div id="btn">
+      <input type="submit" value="ENVIAR" class="botão" />
+    </div>
+  </form>
+
+  <footer>
+    <p class="copy">&copy; Sweet and Love 2023</p>
+    <h2 class="sombreamento centralizado">Sweet and Love</h2>
+    <nav class="navFooter">
+      <a href="https://pt-br.facebook.com/login/device-based/regular/login/"><img src="img/facebook.png" alt="Facebook"
+          class="icons" /></a>
+      <a
+        href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fedit%2F%3F__coig_login%3D1"><img
+          src="img/instagram.png" alt="Instagram" class="icons" /></a>
+      <a
+        href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"><img
+          src="img/twitter.png" alt="Twitter" class="icons" /></a>
+    </nav>
+  </footer>
+</body>
+
+</html>
