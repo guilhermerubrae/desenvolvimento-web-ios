@@ -7,3 +7,7 @@ let numeroDeAprovados = 5
 console.log(numeroDeAprovados)
 
 console.clear
+
+var nomeDoPrimeiroAluno = 'Guillermo'
+
+console.log(nomeDoPrimeiroAluno)
