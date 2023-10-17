@@ -1,1 +1,0 @@
-alert("deu um bug");
