@@ -51,3 +51,25 @@ var falso = false;
 let nulo = null;
 
 //conversão automática no js null para 0; string num com num na subtração subtrai; com soma ele concatena; texto com num NaN
+
+console.clear();
+
+var incremento = 2;
+incremento += 6;
+console.log (incremento);
+
+// 33 % 2 sobra da div ; 33 / 2 resultado da div
+// impar 1 ; par 0
+// == iguais === são do mesmo tipo?
+
+var parImpar = 33 % 2 
+console.log (parImpar);
+
+if (parImpar % 2 === 0) {console.log("par");} 
+else {console.log("impar");};
+  
+//  e ; ou / true ; false
+// typeof qual o tipo? introduz no console.log(); typeof tipo if else ex: cadastro de texto só que foram utilizados numeros 
+
+//alert("error");
+
