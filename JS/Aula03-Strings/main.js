@@ -16,3 +16,11 @@ console.log('Exemplo: ' + string01.toUpperCase());
 console.log('Exemplo: ' + string01.toLowerCase());
 console.log('Exemplo: ' + string01.substring(10,25) + ' ' + string01.substring(0,9));
 console.log('Exemplo: ' + string01.substring(13))
+
+console.clear();
+
+let mensagem = 'Game of Thrones';
+console.log(mensagem);
+
+let novaMensagem = mensagem.replace('Game', 'Thrones');
+console.log(novaMensagem);
