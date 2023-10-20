@@ -24,3 +24,6 @@ console.log(mensagem);
 
 let novaMensagem = mensagem.replace('Game', 'Thrones');
 console.log(novaMensagem);
+
+let retirandoEspacos = '            a vida é um morango              ';
+console.log(retirandoEspacos.trim())
