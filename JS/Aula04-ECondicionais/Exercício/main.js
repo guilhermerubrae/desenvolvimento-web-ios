@@ -1,8 +1,9 @@
-let notaAluno2Semestre1 = 4;
-console.log('Qual sua primeira nota? ')
+var numero1 = 4
+var numero2 = 2
 
-
-let notaAluno2Semestre2 = 6; 
-console.log('Qual sua segunda nota? ')
-
-let media = notaAluno2Semestre1 + notaAluno2Semestre2 / 2
+if (numero1 > numero2 ){
+    console.log('numero1 é maior que número2')
+}
+else{
+    console.log('numero1 é menor')
+}

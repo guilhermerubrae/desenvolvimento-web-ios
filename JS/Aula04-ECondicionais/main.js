@@ -61,8 +61,8 @@ else if(morangoMaduro == false){
 else{
     console.log('Indefinido')
 }
-//'Outono, Verão, Inverno, Primavera'
-//'Janeiro, Fevereiro, Março, Abril, Maio, Agosto, Abril, Setembro, Outubro, Novembro, Dezembro'
+'Outono, Verão, Inverno, Primavera'
+'Janeiro, Fevereiro, Março, Abril, Maio, Agosto, Abril, Setembro, Outubro, Novembro, Dezembro'
 let mes = 'Dezembro';
 let estacoes = 'Verão'
 if(mes == 'Dezembro'){
@@ -79,8 +79,8 @@ let fase3 = true;
 if(incrição == true){
 console.log('Você está na fase 1')
    if(fase1 >= 70){
-    console.log('Você passou e está na fase2')
-     else if(fase2 >= 65 || fase2 <= 69){
+     console.log('Você passou e está na fase2')}
+      else if(fase2 >= 65 || fase2 <= 69){
         console.log('Você terá uma nova oportunidade de passar na fase2')
    }
    else{
@@ -89,4 +89,52 @@ console.log('Você está na fase 1')
 }
 else{
     console.log('Você não passou')
-}}
+}
+
+let pipoca1 = 56
+let pipoca2 = 50
+
+if(pipoca1 > pipoca2){
+    console.log('maior')
+}
+else{
+    console.log('menor')}
+//operador ternário
+
+pipoca1 > pipoca2 ? console.log(pipoca1 + 'é maior') : console.log(pipoca1 + 'é menor');
+console.clear();
+//'Janeiro, Fevereiro, Março, Abril, Maio, Agosto, Abril, Setembro, Outubro, Novembro, Dezembro'
+//não declarei o let pois já foi declarado lá em cima
+mes = 3
+
+switch(mes){
+    case mes == 3:
+        console.log('Março')
+        case mes == 4 :
+        console.log('Abril')
+        case mes == 5 :
+        console.log('Maio')
+        case mes == 6 :
+        console.log('Agosto')
+        case mes == 7 :
+        console.log('Abril')
+        case mes == 8 :
+        console.log('Setembro')
+        case mes == 9 :
+        console.log('Outubro')
+}
+
+if(mes == 4){
+    console.log(`Esse number ${mes} é referente a Abril`)
+}
+
+
+
+
+
+
+
+
+
+
+
