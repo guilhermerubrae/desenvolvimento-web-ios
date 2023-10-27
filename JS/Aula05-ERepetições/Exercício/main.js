@@ -1,14 +1,4 @@
-let contador = 0
-let tabuada = 1
-
-for(let contador = 0; + 11; contador ++){
-    console.log(`O número é ${contador}`)
-    for(let tabuada = 1; + 11; tabuada ++){
-        console.log(`O número é ${tabuada}`)
-    }
-}
-=======
-for(let tabuada = 1; tabuada <= 10; tabuada++){
+for(let tabuada = 1; tabuada <= 100; tabuada++){
     console.log(`Tabuada do ${tabuada}`)
     for(let contador = 1; contador <= 10; contador++){
         console.log(`${tabuada} x ${contador} = ${tabuada * contador}`)
@@ -16,6 +6,7 @@ for(let tabuada = 1; tabuada <= 10; tabuada++){
 
 console.clear()
 
+// VAI FAZER UMA REPETIÇÃO 
 let tabuada = 1
 while(tabuada <= 10){
     console.log(`Tabuada do ${tabuada}`)
@@ -26,3 +17,23 @@ while(tabuada <= 10){
     }
     tabuada++;
 } 
+
+console.clear()
+
+let TABUADA = 1
+
+do{
+    debugger
+    console.log(`TABUADA: ${TABUADA}`)
+    console.log(`${TABUADA} x ${CONTADOR} = ${TABUADA * CONTADOR}`)
+    TABUADA++;
+    CONTADOR++;
+    do{
+        debugger
+        console.log(`TABUADA: ${TABUADA}`)
+        console.log(`${TABUADA} x ${CONTADOR} = ${TABUADA * CONTADOR}`)
+        TABUADA++;
+        CONTADOR++;
+} while(CONTADOR <= 10);
+while(TABUADA <= 10);}
+

@@ -16,7 +16,7 @@ console.clear();
 // Debugger executa linha por linha evitando bug
 // exemplo antes de realizar um pix pergunta se quer mesmo realizar ou cancelar 
 
-//let conta = 1
+// let conta = 1
 // do{
 //     debugger
 //     console.log(`O número do contador é ${conta}`)
