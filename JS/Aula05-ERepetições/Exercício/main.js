@@ -25,14 +25,10 @@ let TABUADA = 1
 do{
     debugger
     console.log(`TABUADA: ${TABUADA}`)
-    console.log(`${TABUADA} x ${CONTADOR} = ${TABUADA * CONTADOR}`)
     TABUADA++;
-    CONTADOR++;
     do{
         debugger
-        console.log(`TABUADA: ${TABUADA}`)
         console.log(`${TABUADA} x ${CONTADOR} = ${TABUADA * CONTADOR}`)
-        TABUADA++;
         CONTADOR++;
 } while(CONTADOR <= 10);
 while(TABUADA <= 10);}
