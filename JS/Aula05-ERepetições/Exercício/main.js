@@ -19,17 +19,17 @@ while(tabuada <= 10){
 } 
 
 console.clear()
-
+// Ambas as var tem que estar como escopo global para conseguir atribuir valores a si mesma
+// Icremento da tabuada também deve estar fora dos laços pois queremos que se atribua o valor também
 let TABUADA = 1
-
 do{
     debugger
     console.log(`TABUADA: ${TABUADA}`)
-    TABUADA++;
+    let CONTADOR = 1
     do{
         debugger
         console.log(`${TABUADA} x ${CONTADOR} = ${TABUADA * CONTADOR}`)
         CONTADOR++;
 } while(CONTADOR <= 10);
-while(TABUADA <= 10);}
-
+TABUADA++;
+}while(TABUADA <= 10);
