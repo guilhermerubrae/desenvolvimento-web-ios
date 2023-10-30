@@ -37,8 +37,8 @@ let arrayBidimensional = [
   
   delete arrayBidimensional[2][2];
   console.log(arrayBidimensional);
-  
-  arrayBidimensional.push(["pipoca"]);
-  console.log(typeof arrayBidimensional);
-  
+
+  let arrayPipoca = arrayBidimensional
+  arrayBidimensional.push("pipoca");
+  console.log(arrayPipoca);
 
