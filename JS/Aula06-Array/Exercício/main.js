@@ -39,6 +39,6 @@ let arrayBidimensional = [
   console.log(arrayBidimensional);
 
   let arrayPipoca = arrayBidimensional
-  arrayBidimensional.push("pipoca");
+  arrayBidimensional[2].push("pipoca");
   console.log(arrayPipoca);
 
