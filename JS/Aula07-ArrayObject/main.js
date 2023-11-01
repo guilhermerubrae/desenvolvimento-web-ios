@@ -11,7 +11,7 @@ console.log(segundo); // 2
 const numerosJSON = JSON.stringify(numeros);
 console.log(numerosJSON); // Conversão para JSON
 
-console.clear();
+// Array Object
 
 const pessoa = { nome: 'Alice', idade: 30, cidade: 'Nova York' };
 
