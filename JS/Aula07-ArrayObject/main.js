@@ -8,6 +8,7 @@ const [primeiro, segundo] = numeros;
 
 console.log(primeiro); // 1
 console.log(segundo); // 2
+const numerosJSON = JSON.stringify(numeros);
 
 console.clear();
 
@@ -18,3 +19,5 @@ const { nome, idade } = pessoa;
 
 console.log(nome); // Alice
 console.log(idade); // 30
+
+const pessoaJSON = JSON.stringify(pessoa);
