@@ -19,7 +19,7 @@ console.log(arrayBruno);
 let arrayNotaMaria = arrayObject[5].nota;
 console.log(arrayNotaMaria);
 // Método de conversão JSON.stringify()
-// JS O Object N Notation formato lido fácilmente entre máquina/humano
+// JS O Object N Notation (representação de inf/dados) formato lido fácilmente entre máquina/humano
 // Utilizado para transmitir dados de forma textual descritiva 
 let arrayJSON = JSON.stringify(arrayObject)
 console.log(arrayJSON)
