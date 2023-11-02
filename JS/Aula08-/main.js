@@ -3,7 +3,7 @@
 
    let x = addNums(4, 5); // Chamada da função addNums
    console.log(x);
-   
+
    let z = myFunc(4, 5); // Chamada da função myFunc
    console.log(z);
 
@@ -60,3 +60,27 @@ function imparPar(num){
     }
 
 }
+
+// Objetos
+
+const celular  = {
+    marca: 'Apple',
+    modelo: 'Iphone 19 Pro Max',
+    cor: 'preto',
+    memoria: '1TB',
+    memoriaRam: '16GB'
+}
+console.log(celular)
+
+console.clear();
+const boasVindas = () => {
+alert('Bem vindo a nossa página');
+console.log('Bem vindo a nossa página');
+};
+const eventClique = () => {
+console.log('Você clicou no botão');
+};
+const mouseEmCima = () => {
+    console.log('Mouse está em cima do título');
+    };
+    
