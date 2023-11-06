@@ -10,11 +10,11 @@ const alertSucesso = () => {
 
 // Objeto que descreve um notebook
 const notebook = {
-    marca: 'DELL G15',
-    cor: 'Preto',
+    marca: 'Samsung XR-T',
+    cor: 'Rosa',
     peso: '2kg',
-    memoriaRam: '16gb',
-    SistemaOperacional: 'Windows'
+    memoriaRam: '32gb',
+    SistemaOperacional: 'Linux'
 };
 console.log(notebook);
 
