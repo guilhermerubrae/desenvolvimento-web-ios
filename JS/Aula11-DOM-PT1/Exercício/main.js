@@ -1,4 +1,4 @@
-let h1 = document.createElement('h1');
+let titulo = document.createElement('h1');
 
 document.body.appendChild(h1);
 
