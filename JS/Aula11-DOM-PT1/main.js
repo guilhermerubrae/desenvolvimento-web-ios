@@ -3,7 +3,14 @@
 //         alert('iniciamos o DOM com object window');
 
 // Criação da var e do botão
-let button = document.createElement('div')
+let botao = document.createElement('button');
 // Esse botão deverá aparecer na boby (append = acrescenta "método")
-document.body.appendChild(button)
+let corpo = document.body;
+
+document.body.appendChild(botao);
+
+botao.innerHTML = 'COMECE AGORA';
+botao.style.border = '30px solid black'
+
+document.body.style.backgroundColor = 'blue'
 
