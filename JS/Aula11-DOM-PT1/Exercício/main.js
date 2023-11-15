@@ -1,7 +1,5 @@
-let titulo = document.createElement('h1');
+let elementoH1 =  document.createElement('h1');
+elementoH1.textContent = 'Cadastro de usuário';
 
-document.body.appendChild(titulo);
-
-titulo.innerHTML = 'cadastro de usuário';
-
-document.title = "cadastro empresa Macron"
+document.body.appendChild(elementoH1);
+document.title = 'Cadastro empresa Macron';
