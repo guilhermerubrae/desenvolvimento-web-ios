@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS</title>
-    <style> body { background-color: rgb(122, 189, 36); } </style>
+    <style> body { background-color: rgb(100, 121, 74); } </style>
 </head>
 <body>
-    <button class="B_12" id="B_01" onclick="adicionarImagem()">COMECE AGORA</button>
-    <button class="B_12" onclick="solicitarNome()">Solicitar Nome</button>
-    <button class="B_12" onclick="exibirTabuada()">Tabuada</button>
+    <h2>Calculadora de Salário</h2>
+
+<p>Salário atual:</p>
+<input type="number" id="salario" value="1200">
+
+<button onclick="calcularNovoSalario()">Calcular Novo Salário</button>
+
+<p id="resultado"></p>
     <script src="main.js"></script>
 </body>
 </html>
