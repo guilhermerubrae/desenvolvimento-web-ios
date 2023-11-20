@@ -1,1 +1,61 @@
+HTML (index.html)
 
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Estação do Ano</title>
+</head>
+<body>
+
+  <label for="mesInput">Digite o mês:</label>
+  <input type="text" id="mesInput" placeholder="Digite o mês">
+
+  <button onclick="verificarEstacao()">Verificar Estação do Ano</button>
+
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+JavaScript (script.js)
+
+function verificarEstacao() {
+  let mesDigitado = document.getElementById("mesInput").value.toLowerCase();
+  let estacao;
+
+  switch (mesDigitado) {
+    case "janeiro":
+    case "fevereiro":
+    case "março":
+      estacao = "Verão";
+      break;
+
+    case "abril":
+    case "maio":
+    case "junho":
+      estacao = "Outono";
+      break;
+
+    case "julho":
+    case "agosto":
+    case "setembro":
+      estacao = "Inverno";
+      break;
+
+    case "outubro":
+    case "novembro":
+    case "dezembro":
+      estacao = "Primavera";
+      break;
+
+    default:
+      estacao = "Mês inválido";
+  }
+
+ let resultadoElement = document.getElementById("resultado");
+  resultadoElement.textContent = `Você escreveu o mês de ${mesDigitado}, e a estação desse mês é ${estacao}.`;
+}
