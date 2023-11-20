@@ -1,5 +1,5 @@
 import React from "react";
-import ANOCTURNAL from "../img/ANOCTURNAL.jpg";
+import ANOCTURNAL from "../ANOCTURNAL.jpg";
 
 let estilo = { fontSize: '2rem', color: 'pink', backgroundColor: 'orange' };
 
