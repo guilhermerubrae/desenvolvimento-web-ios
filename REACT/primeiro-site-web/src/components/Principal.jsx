@@ -1,21 +1,22 @@
-import React from 
-"react";
+import React from "react";
+import ANOCTURNAL from "../img/ANOCTURNAL.jpg";
 
-let estilo = {color: 'blue', backgroundColor: 'pink', listStyle: 'none', textAlign: 'left'};
+let estilo = { fontSize: '2rem', color: 'pink', backgroundColor: 'orange' };
 
-const Exemplo = () => {
+const principal = () => {
     return (
-    <>
-        <h1>Sofrendo nessa sexta</h1>
-        <p>eita como reprova</p>
-        <ul style={estilo}>
-            <li>A REPROVADOS</li>
-            <li>B REPROVADOS</li>
-            <li>C REPROVADOS</li>
-            <li>D E O RESTANTE</li>
-        </ul>
-    </>
-    )
+        <>
+            <p style={estilo}>Estou participando do curso de IOS com o objetivo de adquirir conhecimentos fundamentais na área de desenvolvimento front-end. Meu intuito é aprender a colaborar eficientemente em projetos de equipe, aprimorar minhas habilidades de comunicação e, a longo prazo, evoluir como desenvolvedor.</p>
+            <ul>
+                <li>Animais Noturnos</li>
+                <li>Na Natureza Selvagem</li>
+                <li>A Chegada</li>
+                <li>Esposa de Mentirinha</li>
+                <li>Um Contratempo</li>
+            </ul>
+            <img src={ANOCTURNAL} alt="Animais Noturnos" />
+        </>
+    );
 }
 
-export default Exemplo;
+export default principal;
