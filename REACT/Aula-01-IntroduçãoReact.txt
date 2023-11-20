@@ -1,1 +1,22 @@
+DEFINIÇÕES
+  React: é uma bibliotaca de JavaScript sendo mais utilizada para aplicações web ela visa deixar a interface para o usuário mais fluída ao momento que o código é digamos compactado e reutilizado.
 
+Biblioteca vs Framework:
+  Bibliotecas são um lugar onde são armazeanadas diversas informações e dados criados trazendo para o desenvolvedor uma maior praticidade de elaboração de códigos.
+  Framework são como biblioteca mas podendo serem criados a partir de uma seus códigos já estão concretizados, sua estrutura já está pronta para ser realizada.
+
+Props: é a forma reduzida de propriedades e serve para fazer a comunicação dos dados entre os componentes, podemos dizer que é como se fossem os parâmetros de funções só que do React.
+
+Hooks: são como ferramentas que permitem aos desenvolvedores organizar e gerenciar melhor as informações e interações na parte visual do que estão construindo. Tornam mais fácil lidar com coisas como atualizações de dados e ações do usuário, facilitando o processo de criação de páginas web.
+
+Componentes: são funções que retornam JSX ou outros componentes, buscam deixar o código mais fluído e sem repetições desnecessárias 
+
+Referências:
+
+https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca?gad_source=1&gclid=CjwKCAiAgeeqBhBAEiwAoDDhn3ibu7R9rHx5643m-fZfH3DmJecofTkBMzTWi-gNDvIBfuJRtNZlxhoCpvQQAvD_BwE
+
+https://www.freecodecamp.org/portuguese/news/react-js-para-iniciantes-props-e-state-explicados/#:~:text=React%20para%20iniciantes.-,O%20que%20s%C3%A3o%20props%3F,pai%20para%20o%20componente%20filho).
+
+https://dev.to/nascimento_/react-o-que-sao-componentes-40f0#:~:text=Componentes%20s%C3%A3o%20basicamente%20fun%C3%A7%C3%B5es%20que,function%20e%20tamb%C3%A9m%20usando%20class.
+
+e o famoso chat GPT para dar uma explicação mais leiga em conjunto.
